@@ -3,15 +3,25 @@ let backgroundColor = 200;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+<<<<<<< HEAD
   // background(backgroundColor);
 
 
   drawGrid();
+=======
+  background(backgroundColor);
+
+  strokeWeight(5);
+>>>>>>> fce883477b22ffeb3dfc75e91266d930de7cd768
   noFill();
 }
 
 function draw() {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> fce883477b22ffeb3dfc75e91266d930de7cd768
   if (mouseIsPressed){
     backgroundColor -= 5;
     background(backgroundColor);
@@ -43,6 +53,7 @@ function mousePressed(){
   array =[];
   backgroundColor = 255;
 }
+<<<<<<< HEAD
 
 function drawGrid(){
   numCells = 20;
@@ -63,3 +74,5 @@ function drawGrid(){
 }
 strokeWeight(5);
 }
+=======
+>>>>>>> fce883477b22ffeb3dfc75e91266d930de7cd768
